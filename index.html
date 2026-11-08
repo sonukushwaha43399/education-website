@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Book Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome icons ke liye link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="contact-info">
+            <span><i class="fa-solid fa-envelope"></i> info@educationportal.com</span>
+            <span><i class="fa-solid fa-phone"></i> +91 98765 43210</span>
+        </div>
+        <div class="social-links">
+            <span>Follow Us:</span>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="logo">
+            <h2><i class="fa-solid fa-book-open"></i> STUDY PORTAL</h2>
+            <p>Learn • Prepare • Achieve</p>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search Books, Notes, or Topics...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="user-auth">
+            <button class="login-btn"><i class="fa-solid fa-user"></i> Login / Register</button>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#">Free Books <i class="fa-solid fa-caret-down"></i></a></li>
+            <li><a href="#">Paid Books <i class="fa-solid fa-caret-down"></i></a></li>
+            <li><a href="#">Competitive Exams <i class="fa-solid fa-caret-down"></i></a></li>
+            <li><a href="#">Study Material <i class="fa-solid fa-caret-down"></i></a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="banner-content">
+            <h1>Your Success Our Mission</h1>
+            <p>"Quality Education for a Better Tomorrow"</p>
+            <button class="explore-btn">Explore Our Books <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="banner-highlights">
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i> SSC & Railway</li>
+                <li><i class="fa-solid fa-circle-check"></i> Competitive Exams</li>
+                <li><i class="fa-solid fa-circle-check"></i> General Studies</li>
+                <li><i class="fa-solid fa-circle-check"></i> Mathematics & Reasoning</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <div class="container">
+        
+        <!-- Sidebar Categories -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <i class="fa-solid fa-bars"></i> Categories
+            </div>
+            <ul class="category-list">
+                <li><a href="#">SSC Books <span>&gt;</span></a></li>
+                <li><a href="#">Railway Books <span>&gt;</span></a></li>
+                <li><a href="#">General Science <span>&gt;</span></a></li>
+                <li><a href="#">Mathematics <span>&gt;</span></a></li>
+                <li><a href="#">Reasoning <span>&gt;</span></a></li>
+                <li><a href="#">Current Affairs <span>&gt;</span></a></li>
+                <li><a href="#">Previous Year Papers <span>&gt;</span></a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Book Section -->
+        <main class="content-area">
+            <div class="section-title">
+                <h2><i class="fa-solid fa-star"></i> Our Popular Books</h2>
+                <a href="#" class="view-all">View All &gt;</a>
+            </div>
+
+            <div class="book-grid">
+                <!-- Book Card 1 -->
+                <div class="book-card">
+                    <div class="book-cover ssc">
+                        <h3>SSC CHSL</h3>
+                        <p>Complete Preparation</p>
+                    </div>
+                    <h4>SSC CHSL Book</h4>
+                    <div class="book-actions">
+                        <button class="read-btn"><i class="fa-solid fa-book-open"></i> Read</button>
+                        <button class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</button>
+                    </div>
+                </div>
+
+                <!-- Book Card 2 -->
+                <div class="book-card">
+                    <div class="book-cover railway">
+                        <h3>RAILWAY NTPC</h3>
+                        <p>CBT 1 & 2</p>
+                    </div>
+                    <h4>Railway NTPC Book</h4>
+                    <div class="book-actions">
+                        <button class="read-btn"><i class="fa-solid fa-book-open"></i> Read</button>
+                        <button class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</button>
+                    </div>
+                </div>
+
+                <!-- Book Card 3 -->
+                <div class="book-card">
+                    <div class="book-cover science">
+                        <h3>General Science</h3>
+                        <p>All Exams</p>
+                    </div>
+                    <h4>Science Special</h4>
+                    <div class="book-actions">
+                        <button class="read-btn"><i class="fa-solid fa-book-open"></i> Read</button>
+                        <button class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</button>
+                    </div>
+                </div>
+
+                <!-- Book Card 4 -->
+                <div class="book-card">
+                    <div class="book-cover maths">
+                        <h3>Mathematics</h3>
+                        <p>Concept + Practice</p>
+                    </div>
+                    <h4>Maths Guide</h4>
+                    <div class="book-actions">
+                        <button class="read-btn"><i class="fa-solid fa-book-open"></i> Read</button>
+                        <button class="download-btn"><i class="fa-solid fa-download"></i> Download PDF</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Side Updates Panel -->
+        <aside class="updates-panel">
+            <div class="updates-header">
+                <i class="fa-solid fa-bolt"></i> Latest Updates
+            </div>
+            <ul class="updates-list">
+                <li>
+                    <p>SSC CHSL New Syllabus Released</p>
+                    <span class="badge">New</span>
+                </li>
+                <li>
+                    <p>Railway NTPC Important Notice</p>
+                    <span class="badge">New</span>
+                </li>
+                <li>
+                    <p>Free PDF Books Now Available</p>
+                    <span class="badge">New</span>
+                </li>
+            </ul>
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Study Portal. All Rights Reserved. Built securely for Students.</p>
+    </footer>
+
+</body>
+</html>
