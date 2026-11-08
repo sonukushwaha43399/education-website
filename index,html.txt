@@ -179,6 +179,7 @@
 
     <!-- Footer -->
     <footer>
+   <p>Contact Us: <a href="https://wa.me.7061229526" target="_blank" style="color: #ffc107;">Chat on WhatsApp</a> Email: publicationmourya@gmail.com</p
         <p>&copy; 2026 Study Portal. All Rights Reserved. Built securely for Students.</p>
     </footer>
 
